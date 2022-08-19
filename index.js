@@ -24,7 +24,7 @@ while(jugar === 1){
     }
 
     alert (ganadores);
-    jugar = prompt("¿Quieren seguir jugando? \n 1-SI\n *-NO");
+    jugar = parseInt(prompt("¿Quieren seguir jugando? \n 1-SI\n *-NO"));
 
 }
 
